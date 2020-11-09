@@ -13,7 +13,7 @@ class MySet extends Set {
   }
 
   toArray() {
-    return Array.from(this)
+    return Array.from(this.arr)
   }
 
   reset() {
